@@ -671,6 +671,9 @@ func (s *StaticFiles) OneTwentynine() []byte {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds"
         }
       },
+      "required": [
+        "items"
+      ],
       "type": "object",
       "x-kubernetes-group-version-kind": [
         {
@@ -729,6 +732,9 @@ func (s *StaticFiles) OneTwentynine() []byte {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds"
         }
       },
+      "required": [
+        "items"
+      ],
       "type": "object",
       "x-kubernetes-group-version-kind": [
         {
@@ -1144,6 +1150,9 @@ func (s *StaticFiles) OneTwentynine() []byte {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds"
         }
       },
+      "required": [
+        "items"
+      ],
       "type": "object",
       "x-kubernetes-group-version-kind": [
         {
@@ -1202,6 +1211,9 @@ func (s *StaticFiles) OneTwentynine() []byte {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds"
         }
       },
+      "required": [
+        "items"
+      ],
       "type": "object",
       "x-kubernetes-group-version-kind": [
         {
@@ -8327,7 +8339,7 @@ func (s *StaticFiles) OneTwentynine() []byte {
       "properties": {
         "lastPhaseTransitionTime": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time",
-          "description": "lastPhaseTransitionTime is the time the phase transitioned from one to another and automatically resets to current time everytime a volume phase transitions. This is an alpha field and requires enabling PersistentVolumeLastPhaseTransitionTime feature."
+          "description": "lastPhaseTransitionTime is the time the phase transitioned from one to another and automatically resets to current time everytime a volume phase transitions. This is a beta field and requires the PersistentVolumeLastPhaseTransitionTime feature to be enabled (enabled by default)."
         },
         "message": {
           "description": "message is a human-readable message indicating details about why the volume is in this state.",

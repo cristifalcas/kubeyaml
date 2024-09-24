@@ -671,6 +671,9 @@ func (s *StaticFiles) OneTwentyeight() []byte {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds"
         }
       },
+      "required": [
+        "items"
+      ],
       "type": "object",
       "x-kubernetes-group-version-kind": [
         {
@@ -729,6 +732,9 @@ func (s *StaticFiles) OneTwentyeight() []byte {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds"
         }
       },
+      "required": [
+        "items"
+      ],
       "type": "object",
       "x-kubernetes-group-version-kind": [
         {
@@ -1144,6 +1150,9 @@ func (s *StaticFiles) OneTwentyeight() []byte {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds"
         }
       },
+      "required": [
+        "items"
+      ],
       "type": "object",
       "x-kubernetes-group-version-kind": [
         {
@@ -1202,6 +1211,9 @@ func (s *StaticFiles) OneTwentyeight() []byte {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds"
         }
       },
+      "required": [
+        "items"
+      ],
       "type": "object",
       "x-kubernetes-group-version-kind": [
         {
